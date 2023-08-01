@@ -7,7 +7,7 @@ I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
 ## Description
-This challene was to create a daily planner for a user with a typical 9-5 type schedule. Criteria included (but is not limited to):
+This challenge was to create a daily planner for a user with a typical 9-5 type schedule. Criteria included (but is not limited to):
 <br>
 -Color-coding past (gray color), present (red color) and future (green color) time blocks
 <br>
