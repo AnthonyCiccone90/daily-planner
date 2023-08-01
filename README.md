@@ -17,7 +17,14 @@ This challenge was to create a daily planner for a user with a typical 9-5 type 
 
 Below are two screenshots of how the page will load (current hour of when the the screenshot was taken is colored red):
 ![Alt text](<Screenshot 2023-08-01 at 14.31.40.png>)![Alt text](<Screenshot 2023-08-01 at 14.31.54.png>)
+<hr>
 
+Link to deployed page:
+https://anthonyciccone90.github.io/daily-planner/
+
+Link to GitHub Repository:
+https://github.com/AnthonyCiccone90/daily-planner
+<hr>
 
 ## Reflection
 JavaScript is hard! This week I learned about something that ails almost 60% of all developers from juniors to the most senior level: Impostor's Syndrome. 
