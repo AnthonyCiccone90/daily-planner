@@ -4,7 +4,7 @@
 $(function () {
   const firstHour = 0;
   const lastHour = 17;
-  
+
   function displayCurrentDate() {
     const currentDateElement = document.getElementById("currentDay");
     const currentDate = dayjs().format("dddd, MMMM D, YYYY,");
@@ -14,7 +14,7 @@ $(function () {
   function updateTime() {
     const currentTimeElement = document.getElementById("currentTime");
     const currentTime = dayjs().format("HH:mm:ss");
-    currentTimeElement.textContent = ("Current Time (MST): " + currentTime);
+    currentTimeElement.textContent = "Current Time (MST): " + currentTime;
   }
 
   function currentTimeBlockColor() {
@@ -38,9 +38,6 @@ $(function () {
       const timeBlockId = $(this).attr("id");
       const description = $(this).find(".description").val();
       localStorage.setItem(timeBlockId, description);
-      $(".saveBtn").on("click", function () {
-        saveData();
-      });
     });
   }
 
@@ -49,15 +46,18 @@ $(function () {
       const timeBlockId = $(this).attr("id");
       const savedText = localStorage.getItem(timeBlockId);
       if (savedText) {
-        $(this).find(".description").val(savedDescription);
+        $(this).find(".description").val(savedText);
       }
     });
   }
 
   retainData();
-  saveData();
+
   displayCurrentDate();
   updateTime();
   setInterval(updateTime, 1000);
   currentTimeBlockColor();
+  $(".saveBtn").on("click", function () {
+    saveData();
+  });
 });

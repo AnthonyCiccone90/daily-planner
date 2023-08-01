@@ -1,99 +1,34 @@
-# 05 Third-Party APIs: Work Day Scheduler
-
-## Your Task
-
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
-
 ## User Story
 
-```md
 AS AN employee with a busy schedule
+<br>
 I WANT to add important events to a daily planner
+<br>
 SO THAT I can manage my time effectively
-```
 
-## Acceptance Criteria
+## Description
+This challene was to create a daily planner for a user with a typical 9-5 type schedule. Criteria included (but is not limited to):
+<br>
+-Color-coding past (gray color), present (red color) and future (green color) time blocks
+<br>
+-Saving text according to the hour within the planner
+<br>
+-Having the current date displayed
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+Below are two screenshots of how the page will load (current hour of when the the screenshot was taken is colored red):
+![Alt text](<Screenshot 2023-08-01 at 14.31.40.png>)![Alt text](<Screenshot 2023-08-01 at 14.31.54.png>)
 
-The following animation demonstrates the application functionality:
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+## Reflection
+JavaScript is hard! This week I learned about something that ails almost 60% of all developers from juniors to the most senior level: Impostor's Syndrome. 
 
-## Grading Requirements
+In case you are unware, Impostor's Syndrome is a condition where one feels as if they are not quailified even though they have the same skills and accolades as colleagues and fellow students.
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+Despite doing very well in this course thus far, I fell into this syndrome this week for the first time. The entire week I stressed myself out and felt very unproductive and inferior not knowing this is something that almost everyone in this field experiences. I also learned this has made a large amount of people quit and put out work that is short in quailty. 
 
-This Challenge is graded based on the following criteria:
+I am a firm believer in talking about mental health and simply just having it open to discussion will help developers drastically and make the field an overall better place for everyone. 
 
-### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria plus the following:
 
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-# daily-planner
+<hr>
+User story and startcode provided by University of Denver FSF coding bootcamp
