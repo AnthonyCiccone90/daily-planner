@@ -31,4 +31,4 @@ I am a firm believer in talking about mental health and simply just having it op
 
 
 <hr>
-User story and startcode provided by University of Denver FSF coding bootcamp
+User story and starter code provided by University of Denver FSF coding bootcamp
